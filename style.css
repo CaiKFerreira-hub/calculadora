@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    height: 100vh;
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgb(236, 57, 227)); */
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(37, 85, 216), black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-size: 100vh; */
+}
+
+.imagem_calculadora {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: 10.7rem;
+    left: 41.25rem;
+}
+
+.botoes_numeros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 7px;
+    column-gap: 50px;
+    width: 5%;
+    position: absolute;
+    top: 29.66rem;
+    left: 47.1rem;
+}
+
+button {
+    background-color: #EE8E9A;
+    display: flex;
+    padding: 20px 11px;
+    width: 218%;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 1px -1px black;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #f57c8a;
+}
+
+.botoes_operadores {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 13.7px;
+    column-gap: 50px;
+    position: absolute;
+    width: 5%;
+    top: 419.7px;
+    left: 1006px;
+}
+
+.btn:hover {
+    background-color: #eca6aa;
+}
+
+.btn {
+    background-color: #EFCBCD;
+    display: flex;
+    padding: 11px 10.6px;
+    width: 215%;
+    border-radius: 28px;
+    box-sizing: border-box;
+    box-shadow: 0.5px -0.5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-sozinho {
+    background-color: #EFCBCD;
+    row-gap: 13.7px;
+    column-gap: 50px;
+    position: absolute;
+    top: 366px;
+    left: 1092px;
+    display: flex;
+    padding: 11px 11px;
+    width: 76px;
+    border-radius: 28px;
+    box-sizing: border-box;
+    box-shadow: 0.5px -0.5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-sozinho:hover {
+    background-color: #eca6aa;
+}
+
+.btn-outros {
+    display: flex;
+    gap: 14px;
+    position: absolute;
+    top: 420.6px;
+    left: 753px;
+    width: 242px;
+    height: 41px;
+    border-radius: 28px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn_mais_igual {
+    display: flex;
+    position: absolute;
+    top: 640.6px;
+    left: 972.5px;
+    width: 224px;
+    height: 93px;
+    gap: 14px;
+    padding: 0px 35px;
+}
+
+.btn_ {
+    background-color: #EFCBCD;
+    border-radius: 18px;
+}
+
+.btn_:hover {
+    background-color: #eca6aa;
+}
+
+button:active {
+    box-shadow: 0 2px rgba(0,0,0,0.2);
+    transform: translateY(1px);
+    background-color: #f57c8a;
+}
+
+.tela {
+    position: absolute;
+    top: 234px;
+    left: 763px;
+    width: 393px;
+    height: 75px;
+    border: none;
+    outline: none;
+    background: transparent;
+    text-align: right;
+    padding: 0 20px;
+    font-size: 40px;
+    font-family: "Press Start 2P", system-ui;
+}
